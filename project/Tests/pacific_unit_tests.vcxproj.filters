@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{ac379895-9612-4b93-9e66-55a8b67340c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testcases">
+      <UniqueIdentifier>{b92f87eb-8c3c-43bb-a28c-a2bfa708786c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gtest_main.cc">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="testcases\ImageTest.cpp">
+      <Filter>testcases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Image.cpp">
+      <Filter>testcases</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\Image.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

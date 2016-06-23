@@ -1,0 +1,44 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# VS precompiled files
+*.idb
+*.pdb
+*.VC.db
+*.VC.opendb
+*.sdf
+
+# Cocos2d
+/project/cocos2d
+/project/proj.win32/Debug
+/project/proj.win32/Debug.win32
+/project/tests/debug.win32
+
+# library dependency
+/project/Lib

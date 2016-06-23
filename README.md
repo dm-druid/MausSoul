@@ -1,2 +1,1 @@
-# Pacific
-C++ Big Homework
+#Pacific

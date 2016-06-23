@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes">
+      <UniqueIdentifier>{ab9d3151-7c26-4f94-a19e-ae52e212a674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entity">
+      <UniqueIdentifier>{ffc1398b-bfec-402f-af30-a05aaaddd3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\map">
+      <UniqueIdentifier>{78087c8c-2dc0-4634-a728-407961d06188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\event handle">
+      <UniqueIdentifier>{e839393c-70ef-43bc-a073-9b5b36fc09b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{43ac20f2-154f-453f-9836-f68f98a6120c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utility">
+      <UniqueIdentifier>{5c688949-49e1-435c-b9e1-6bed06eb0abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entity\attached system">
+      <UniqueIdentifier>{f12f8474-20eb-4afb-8928-09873e8350ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BackgroundLayer.cpp">
+      <Filter>src\map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneOne.cpp">
+      <Filter>src\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EventHandle.cpp">
+      <Filter>src\event handle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity.cpp">
+      <Filter>src\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>src\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Monster.cpp">
+      <Filter>src\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NPC.cpp">
+      <Filter>src\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Image.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameItemLayer.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Substance.cpp">
+      <Filter>src\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AnimationSystem.cpp">
+      <Filter>src\entity\attached system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EntityProperties.cpp">
+      <Filter>src\entity\attached system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Equip.cpp">
+      <Filter>src\entity\attached system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DeadScene.cpp">
+      <Filter>src\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StartScene.cpp">
+      <Filter>src\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NewSprite.cpp">
+      <Filter>src\entity\attached system</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BackgroundLayer.h">
+      <Filter>src\map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneOne.h">
+      <Filter>src\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EventHandle.h">
+      <Filter>src\event handle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity.h">
+      <Filter>src\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>src\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Monster.h">
+      <Filter>src\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NPC.h">
+      <Filter>src\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Image.h">
+      <Filter>src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameItemLayer.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Substance.h">
+      <Filter>src\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AnimationSystem.h">
+      <Filter>src\entity\attached system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Body.h">
+      <Filter>src\entity\attached system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EntityProperties.h">
+      <Filter>src\entity\attached system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Equip.h">
+      <Filter>src\entity\attached system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DeadScene.h">
+      <Filter>src\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StartScene.h">
+      <Filter>src\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NewSprite.h">
+      <Filter>src\entity\attached system</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
